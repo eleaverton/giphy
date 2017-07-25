@@ -21,7 +21,7 @@ function showGifs(){
 	var clickFeeling = $(this).attr("data-emotion");
 	console.log(clickFeeling);
 	var giflimit = "10";
- 	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+ 	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         clickFeeling + "&api_key=dc6zaTOxFJmzC&limit="+giflimit;
 
     $.ajax({
